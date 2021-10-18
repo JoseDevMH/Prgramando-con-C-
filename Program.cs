@@ -16,6 +16,12 @@ namespace ProgramandoCSharp
             DateTime fechaHoy = new DateTime();
             fechaHoy = DateTime.Now;
 
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------------------------------------");
+            Console.WriteLine("----                  MANEJO DE FECHAS EN C #                ----");
+            Console.WriteLine("-----------------------------------------------------------------");
+            Console.WriteLine("");
+
             Console.WriteLine("Fecha en que entre a mi primer trabajo formal de Informática: " + fecha.ToString());
             Console.WriteLine(fecha.ToString("dd/MM/yyyy"));
             Console.WriteLine(fecha.ToString("dd/MM/yy"));
