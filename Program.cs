@@ -28,7 +28,10 @@ namespace ProgramandoCSharp
             Console.WriteLine("La fecha de hoy más 45 días: " + fechaHoy.AddDays(45).ToString("dd/MM/yyyy"));
             Console.WriteLine(DateTime.Now.AddDays(45).ToString("dd/MM/yyyy"));
 
-            
+            Console.WriteLine("Fecha con hora más Un Mes: " + fechaConHora.AddMonths(1));
+            Console.WriteLine("Fecha con hora más un mes pero obteniendo el nombre del día que será: " + fechaConHora.AddMonths(1).DayOfWeek);
+
+            Console.WriteLine("Nombre del día que comence en mi primer trabajo: " + fecha.DayOfWeek);
 
             Console.ReadLine();
         }
