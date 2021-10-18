@@ -11,6 +11,7 @@ namespace ProgramandoCSharp
         static void Main(string[] args)
         {
             DateTime fecha = new DateTime(2004, 2, 10);
+            DateTime fechaTermino = new DateTime(2021, 08, 14);
             DateTime fechaConHora = new DateTime(2021, 10, 18, 16, 40, 50);
             DateTime fechaHoy = new DateTime();
             fechaHoy = DateTime.Now;
@@ -32,6 +33,8 @@ namespace ProgramandoCSharp
             Console.WriteLine("Fecha con hora más un mes pero obteniendo el nombre del día que será: " + fechaConHora.AddMonths(1).DayOfWeek);
 
             Console.WriteLine("Nombre del día que comence en mi primer trabajo: " + fecha.DayOfWeek);
+
+            Console.WriteLine("Días trabaje en mi primer trabajo: " + fechaTermino.Subtract(fecha).ToString("dd"));
 
             Console.ReadLine();
         }
