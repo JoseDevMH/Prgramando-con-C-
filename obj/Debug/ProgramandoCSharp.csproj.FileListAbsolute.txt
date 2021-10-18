@@ -1,0 +1,7 @@
+C:\Users\CC\source\repos\ProgramandoCSharp\bin\Debug\ProgramandoCSharp.exe.config
+C:\Users\CC\source\repos\ProgramandoCSharp\bin\Debug\ProgramandoCSharp.exe
+C:\Users\CC\source\repos\ProgramandoCSharp\bin\Debug\ProgramandoCSharp.pdb
+C:\Users\CC\source\repos\ProgramandoCSharp\obj\Debug\ProgramandoCSharp.csproj.AssemblyReference.cache
+C:\Users\CC\source\repos\ProgramandoCSharp\obj\Debug\ProgramandoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\CC\source\repos\ProgramandoCSharp\obj\Debug\ProgramandoCSharp.exe
+C:\Users\CC\source\repos\ProgramandoCSharp\obj\Debug\ProgramandoCSharp.pdb
